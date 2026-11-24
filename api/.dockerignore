@@ -1,0 +1,2 @@
+docker build -t task-api ./api      # construit une image nommée task-api
+docker run -p 3000:3000 task-api    # lance un conteneur ; port PC:port conteneur
